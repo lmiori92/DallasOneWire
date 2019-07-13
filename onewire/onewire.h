@@ -27,7 +27,7 @@
 #ifndef INCLUDE_ONEWIRE_H_
 #define INCLUDE_ONEWIRE_H_
 
-#include "ow_driver.h"
+#include "./drivers/ow_driver.h"
 
 // Undefine if OneWire address search is not required, save several bytes
 #define OW_LIB_SEARCH
